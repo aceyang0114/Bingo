@@ -128,7 +128,7 @@ function checkBingoLine(card){
 	if(line == 0) {
 		card.cardTitle.innerText = card.no;
 	}else{
-		if(line < 3)
+		if(line < 5)
 			card.cardTitle.innerText = card.no + '  -  ' + line + '連線';
 		else
 			card.cardTitle.innerText = card.no + '  賓果！';
